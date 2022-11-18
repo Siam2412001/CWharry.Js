@@ -1,0 +1,21 @@
+/*let obj = 
+{
+   siam: 22,
+  zawad: 21.5,
+  sakib : 23,
+   ayon : 22.8
+}
+for (let a in obj)  {
+  console.log("age of " + a + " is " + obj[a])
+}*/
+let sum = 0
+let n = prompt("value of n")
+/*above line is actually the code which gives us a space to put the value of n in the program*/
+
+//n = Number.parseInt(n)
+
+for (let i = 0; i < n; i++) {
+  sum += (i + 1)
+  //if we put n =10 this means finally the value of (i) will be 9 and sum += will work on 10 as 9+1 =10//
+}
+console.log("sum of first " + n + " natural numbers is " + sum)
